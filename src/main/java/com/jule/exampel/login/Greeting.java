@@ -5,6 +5,9 @@ public class Greeting {
     private long id;
     private String content;
 
+    public Greeting() {
+    }
+
     public long getId() {
         return id;
     }
